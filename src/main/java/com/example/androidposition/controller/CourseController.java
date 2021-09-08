@@ -25,8 +25,7 @@ public class CourseController {
     @RequestMapping("/getList")
     @ResponseBody
     public List<CourseList> getList(){
-        List<CourseList> list = listService.getList();
-        return list;
+        return listService.getList();
     }
 
     @RequestMapping("/add")
@@ -38,7 +37,7 @@ public class CourseController {
     @RequestMapping("/getImage")
     public void getImage(HttpServletResponse resp) throws IOException {
         //如何让浏览器3秒自动刷新一次;
-        resp.setHeader("refresh","5");
+        resp.setHeader("refresh","3");
 
         BufferedImage image= CreateImage.getImage();
 

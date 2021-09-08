@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.url2",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.url2."
+    },
+    {
+      "name": "spring.datasource.username2",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.username2."
+    },
+    {
+      "name": "spring.datasource.password2",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.password2."
+    }
+  ] }

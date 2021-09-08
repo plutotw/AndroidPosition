@@ -1,9 +1,15 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
+    #url: jdbc:mysql://10.33.119.26:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    #username: root
+    #password: 790910
+
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
     username: root
     password: tw2413
-    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+
+
 
 server:
   port: 8081
